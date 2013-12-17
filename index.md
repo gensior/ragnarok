@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{{ site.baseurl }}
+
 ## About
 
 This mod adds several elements to Civ 5's game mechanics.
