@@ -13,7 +13,7 @@ This mod adds several elements to Civ 5's game mechanics.
 <ul class="posts">
 {% for post in site.posts %}
 	{% if post.categories contains category[0] %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+		<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endif %} 
 {% endfor %}
 </ul>
